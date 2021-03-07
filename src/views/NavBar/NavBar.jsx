@@ -10,7 +10,7 @@ const StyledDiv = styled.div`
   display: flex;
   margin: 0px;
 `;
-// background-color: ;
+
 
 const StyledH1 = styled.h1`
   margin-left: 7vw;

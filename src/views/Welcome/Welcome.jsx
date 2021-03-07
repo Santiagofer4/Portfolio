@@ -3,7 +3,7 @@ import styled from "styled-components";
 import "@fontsource/share-tech-mono";
 
 const StyledDiv = styled.div`
-  margin: 5vh auto;
+  margin: 6vh auto;
   width: 80%;
   font-family: "Share Tech Mono";
     background-color: ${(props) => props.theme.maroon};
@@ -17,7 +17,6 @@ const StyledH1 = styled.h1`
 const StyledH2 = styled.h2`
   font-size: 1.8rem;
   text-align: justify;
-  margin-top: 3vh;
   border-bottom: solid 5px #000000;
   padding-bottom: 5px;
   width: fit-content;
