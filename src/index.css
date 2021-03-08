@@ -16,3 +16,13 @@ code {
 html {
   scroll-behavior: smooth;
 }
+
+h3 {
+  filter: drop-shadow(1px 2px 2px black);
+}
+
+p {
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: large;
+}

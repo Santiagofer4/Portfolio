@@ -4,8 +4,7 @@ import "@fontsource/share-tech-mono";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import QuizAppWeb from "./ProjectsParts/QuizAppWeb";
-import WineStore from "./ProjectsParts/WineStore"
-
+import WineStore from "./ProjectsParts/WineStore";
 
 const StyledContentProyect = styled.div`
   display: flex;
@@ -30,7 +29,7 @@ const StyledDivProyect = styled.div`
 `;
 
 const StyledH1 = styled.h1`
-
+  margin-bottom: 2vh;
   font-size: 3rem;
   color: ${(props) => props.theme.maroon};
 `;
@@ -41,11 +40,11 @@ function Proyects() {
   }, []);
 
   return (
-    <StyledContentProyect id="proyects_Santiago">
+    <StyledContentProyect id="proyectos">
       <StyledDivProyect>
-      <StyledH1 data-aos="fade-right">Proyectos</StyledH1>
-      <WineStore/>
-      <QuizAppWeb/>
+        <StyledH1 data-aos="fade-right">Proyectos</StyledH1>
+        <WineStore />
+        <QuizAppWeb />
       </StyledDivProyect>
     </StyledContentProyect>
   );

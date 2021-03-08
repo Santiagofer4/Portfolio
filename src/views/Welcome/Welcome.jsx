@@ -27,7 +27,7 @@ function Welcome() {
     <StyledDiv>
       <StyledH2>¡Bienvenido!</StyledH2>
       <StyledH1>
-        Soy Santiago Fernández, desarrollador Full stack enfocado en el
+        Soy Santiago Fernández, un desarrollador Full stack enfocado en el
         front-end. Desarrollador freelance viviendo en Uruguay, tengo 20 años y experiencia trabajando en proyectos ambiciosos buscando facilitar soluciones a diferentes problemas.
       </StyledH1>
     </StyledDiv>

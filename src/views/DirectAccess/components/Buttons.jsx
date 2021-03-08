@@ -5,6 +5,6 @@ export default styled(Button)`
  && {
    display: block;
    color:${(props) => props.theme.maroon};
-   filter: drop-shadow(2px 4px 6px black);
+   filter: drop-shadow(3px 5px 2px black);
   }
 `;

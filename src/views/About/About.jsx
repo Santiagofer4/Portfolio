@@ -13,8 +13,8 @@ const StyledDiv = styled.div`
   border-bottom: double #3e0001 10px
 `;
 
-const StyledH1 = styled.h1`
-  margin: 0vh 0vw 4vw 7vw;
+const StyledH1 = styled.h3`
+  margin: 0vh 0vw 4vw 10vw;
   font-size: 3rem;
   color: ${(props) => props.theme.maroon};
 `;
@@ -35,6 +35,7 @@ const StyledImg = styled.img`
   background-color: ${(props) => props.theme.softGrey};
   border: solid;
   border-radius: 12%;
+  box-shadow: 7px 7px 6px #000;
 `;
 
 function About() {

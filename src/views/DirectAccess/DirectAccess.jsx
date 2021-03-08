@@ -14,24 +14,26 @@ function DirectAccess() {
   return (
     <StyledDiv>
       <Grid container Style="font-size: 30px;" justify="space-evenly">
-        <Grid item direction="column" justify="center">
-          <a href="#proyects_Santiago" Style="text-decoration: none;">
+        <Grid item>
+          <a href="#proyectos" Style="text-decoration: none;">
             <Button display="block">
-              <i class="fas fa-project-diagram fa-10x"></i>
-              <h3>Proyectos</h3>
+              <i className="fas fa-project-diagram fa-10x"></i>
+              <h3 Style="font-size: 20px;">Proyectos</h3>
             </Button>
           </a>
         </Grid>
-        <Grid item direction="column" justify="center">
+        <Grid item>
+        <a href="#tecnologias" Style="text-decoration: none;">
           <Button display="block">
-            <i class="fas fa-toolbox fa-10x"></i>
-            <h3>Habilidades</h3>
+            <i className="fas fa-toolbox fa-10x"></i>
+            <h3 Style="font-size: 20px;">Tecnologías</h3>
           </Button>
+          </a>
         </Grid>
-        <Grid item direction="column">
+        <Grid item>
           <Button display="block">
-            <i class="fas fa-mail-bulk fa-10x"></i>
-            <h3>Contacto</h3>
+            <i className="fas fa-mail-bulk fa-10x"></i>
+            <h3 Style="font-size: 20px;">Contacto</h3>
           </Button>
         </Grid>
       </Grid>

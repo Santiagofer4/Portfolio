@@ -13,9 +13,9 @@ const StyledDiv = styled.div`
 
 
 const StyledH1 = styled.h1`
-  margin-left: 7vw;
   font-size: 3rem;
   color:${(props) => props.theme.maroon};
+  margin: 2vh 7vw;
 `;
 
 function NavBar() {
