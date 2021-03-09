@@ -3,6 +3,7 @@ import Grid from "@material-ui/core/Grid";
 
 export default styled(Grid)`
  && {
-  margin: 9vh auto;
+  margin: 7vh auto;
+  width: 70%;
   }
 `;

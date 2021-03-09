@@ -5,6 +5,7 @@ import Wine from "../components/Img/Wine.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { StyledDiv, StyledContent } from "../components/Divs/DivsWine";
+import { StyledImg } from "../components/Img/Img"
 import Technologies from "./Technologies/Technologies";
 
 const StyledH1 = styled.h1`
@@ -14,13 +15,6 @@ const StyledH1 = styled.h1`
   margin-top: 0px;
 `;
 
-const StyledImg = styled.img`
-  margin-right: 3vw;
-  background-color: ${(props) => props.theme.softGrey};
-  border: solid;
-  border-radius: 30px;
-  width: 500px;
-`;
 
 function WineStore() {
   useEffect(() => {
@@ -34,11 +28,13 @@ function WineStore() {
       <StyledDiv>
         <StyledContent>
           <div>
+          <a href="https://web-comm.vercel.app/" target="_blank" rel="noreferrer">
             <StyledImg
               data-aos="fade-right"
               src={Wine}
               alt="Foto Santiago Fernandez"
             />
+            </a>
             <Technologies tech={used} />
           </div>
           <div>

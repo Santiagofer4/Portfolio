@@ -6,6 +6,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { StyledDiv, StyledContent } from "../components/Divs/DivsQuizApp";
 import Technologies from "./Technologies/Technologies";
+import { StyledImg } from "../components/Img/Img"
 
 const StyledH1 = styled.h1`
   font-size: 2rem;
@@ -14,13 +15,6 @@ const StyledH1 = styled.h1`
   margin-top: 0px;
 `;
 
-const StyledImg = styled.img`
-  margin-right: 3vw;
-  background-color: ${(props) => props.theme.softGrey};
-  border: solid;
-  border-radius: 30px;
-  width: 500px;
-`;
 
 function QuizAppWeb() {
   useEffect(() => {
@@ -47,11 +41,13 @@ function QuizAppWeb() {
       <StyledDiv>
         <StyledContent>
           <div>
+          <a href="https://quizapp-web-ten.vercel.app/" target="_blank" rel="noreferrer">
             <StyledImg
               data-aos="fade-right"
               src={Quiz}
               alt="Foto Santiago Fernandez"
             />
+            </a>
             <Technologies tech={used} />
           </div>
           <div>

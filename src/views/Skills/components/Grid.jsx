@@ -3,16 +3,18 @@ import Grid from "@material-ui/core/Grid";
 
 export default styled(Grid)`
  && {
-    max-width: 90%;
-    margin: 10px;
-    background-color: #aaa;
-    border: black solid 3px;
-    padding: 5px;
-    border-radius: 20px;
+  max-width: 90%;
+  margin: 10px;
+  background-color: #aaa;
+  border: #b70939 dashed 6px;
+  padding: 4px;
+  border-radius: 20px;
   }
   &:hover {
-    background-color: #920028;
-    filter: drop-shadow(2px 2px 2px black);
+    background-color: ${(props) => props.theme.carmine};
+    filter: drop-shadow(0px 0px 2px #b70939);
     transition: background-color 0.3s;
+    border: black dashed 6px;
+padding: 4px;
   }
 `;

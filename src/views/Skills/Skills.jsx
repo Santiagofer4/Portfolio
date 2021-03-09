@@ -15,9 +15,9 @@ const StyledContentProyect = styled.div`
   place-content: center;
   background: linear-gradient(
     0deg,
-    rgba(14, 14, 14, 1) 0%,
-    rgba(62, 0, 1, 1) 28%,
-    rgba(115, 0, 2, 1) 80%
+    rgba(14, 14, 14, 1) 10%,
+    rgba(62, 0, 1, 1) 40%,
+    rgba(115, 0, 2, 1) 70%
   );
   min-height: 100vh;
 `;
@@ -53,7 +53,7 @@ function Skills() {
           </Grid>
           <Grid data-aos="fade-down-left" item xs={3}>
             <img
-              Style="width: 150px;"
+              style={{ width: '150px' }}
               src="https://img.icons8.com/ios/150/000000/redux.png"
               alt="redux"
             />
@@ -64,11 +64,11 @@ function Skills() {
             <p>Node</p>
           </Grid>
           <Grid data-aos="fade-up" item xs={3}>
-            <img Style="width: 150px;" src={express} alt="express" />
+            <img style={{ width: '150px' }} src={express} alt="express" />
             <p>Express</p>
           </Grid>
           <Grid data-aos="fade-left" item xs={3}>
-            <img Style="width: 150px;" src={sql} alt="Sql" />
+            <img style={{ width: '150px' }} src={sql} alt="Sql" />
             <p>SQL</p>
           </Grid>
           <Grid data-aos="fade-up-right" item xs={3}>
@@ -79,7 +79,7 @@ function Skills() {
             <p>PostgreSQL</p>
           </Grid>
           <Grid data-aos="fade-up" item xs={3}>
-            <img Style="width: 150px;" src={sequelize} alt="sequelize" />
+            <img style={{ width: '150px' }} src={sequelize} alt="sequelize" />
             <p>Sequelize</p>
           </Grid>
           <Grid data-aos="fade-up-left" item xs={3}>
