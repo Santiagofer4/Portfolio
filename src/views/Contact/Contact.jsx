@@ -86,7 +86,7 @@ function Contact() {
             </a>
           </Grid>
         </GridCont>
-        <a href="https://drive.google.com/file/d/1K_-9R9HAtLjQ2WxQvrpTTUC3gTR8xwYQ/view?usp=sharing" style={{ textDecoration: 'none' }} target="_blank" rel="noreferrer">
+        <a href="https://drive.google.com/file/d/1e0moUCfBpp6tppuH8Ht0aT48UQhH-iPE/view" style={{ textDecoration: 'none' }} target="_blank" rel="noreferrer">
           <Button>
             <i className="fas fa-file-download fa-2x"></i>
             <StyledH2>Curriculum</StyledH2>
